@@ -21,19 +21,17 @@ $(CARPETAS):
 
 compile:
 	@echo "================================================"
-	$(CXX) $(CXXFLAGS) $(DIR)/main.cpp -o $(DIR)/a.exe 
+	$(CXX) $(CXXFLAGS) $(DIR)/main.cpp -o $(DIR)/a.out 
 	@echo "================================================"
 # Si la variable R no esta definida se saltara la ejecucion del programa
 ifdef R
-	@echo "Ejecutando $(DIR)/a.exe"
-	@./$(DIR)/a.exe	
+	@echo "Ejecutando $(DIR)/a.out"
+	@./$(DIR)/a.out	
 endif
-
-	
 
 # Regla para limpiar los archivos generados en todas las prácticas
 clean:
 	@for dir in $(CARPETAS); do \
-		rm -f $$dir/a.exe; \
+		rm -f $$dir/a.out; \
 	done
 	@echo "Limpieza completada"
