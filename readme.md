@@ -1,5 +1,5 @@
-
-# Instrucciones para el Make
+# Este es un proyecto que busca proveer herramientas para optimizar y automaitizar el tiempo que toma crear problemas en C++, para entornos de desarrollo windows
+## Instrucciones para el Make
 
 Para compilar un problema, utiliza el siguiente comando:
 
@@ -22,7 +22,7 @@ Para ejecutar un problema simplemente selecciona la carpeta y ejecuta el archivo
 
 Donde `N` es el número del ejercicio.
 
-# Intrucciones para creacion de problemas (opcional)
+## Intrucciones para creacion de problemas (opcional)
 Para facilitar la creacion de problemas le recomendamos que compile el codigo newp.c en un ejecutable que permita la facil creacion de los problemas en c++
 
 Para esto puede usar el comando:
