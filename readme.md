@@ -39,6 +39,4 @@ Luego, desde la carpeta principal donde se encuentra el ejecutable, puedes crear
 ```bash
 ./newp.sh pN
 ```
-
 Donde `N` es el número del problema.
-```
