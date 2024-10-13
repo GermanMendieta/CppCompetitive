@@ -1,5 +1,5 @@
-
-# Instrucciones
+# Este es un proyecto que busca proveer herramientas para optimizar y automaitizar el tiempo que toma crear problemas en C++, para entornos de trabajo Debian
+## Instrucciones
 
 Para compilar un problema, utiliza el siguiente comando:
 
@@ -24,7 +24,7 @@ Para ejecutar un problema, simplemente selecciona la carpeta y ejecuta el archiv
 Donde `N` es el número del ejercicio.
 
 
-# Instrucciones para creación de problemas (opcional)
+## Instrucciones para creación de problemas (opcional)
 
 Para facilitar la creación de problemas, te recomendamos que ejecutes el script `newp.sh` que permite la fácil creación de los problemas en C++.
 
