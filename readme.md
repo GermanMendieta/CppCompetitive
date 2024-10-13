@@ -1,28 +1,44 @@
 
 # Instrucciones
 
-Para ejecutar un ejercicio, utiliza el siguiente comando:
+Para compilar un problema, utiliza el siguiente comando:
 
 ```bash
 make pN
 ```
 
-Donde `N` es el número del ejercicio.
+Donde `N` es el número del problema.
 
-Para limpiar las ejecuciones, utiliza el comando:
+Para limpiar las compilaciones, utiliza el comando:
 
 ```bash
 make clean
 ```
 
-Para compilar todos los programas es el siguiebte:
-```bash
-make all
-```
-o simplemente
+Para ejecutar un problema, simplemente selecciona la carpeta y ejecuta el archivo correspondiente:
 
 ```bash
-make 
+./pN/a.out
 ```
 
+Donde `N` es el número del ejercicio.
 
+
+# Instrucciones para creación de problemas (opcional)
+
+Para facilitar la creación de problemas, te recomendamos que ejecutes el script `newp.sh` que permite la fácil creación de los problemas en C++.
+
+Para esto, puedes usar primeramente el comando:
+
+```bash
+chmod +x newp.sh
+```
+
+Luego, desde la carpeta principal donde se encuentra el ejecutable, puedes crear carpetas de problemas ejecutando el comando:
+
+```bash
+./newp.sh pN
+```
+
+Donde `N` es el número del problema.
+```
